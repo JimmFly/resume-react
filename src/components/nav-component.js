@@ -18,7 +18,7 @@ const NavComponent = () => {
               <Link to="/resume">我的履历</Link>
             </li>
             <li>
-              <Link to="/">联系方式</Link>
+              <Link to="/contact">联系方式</Link>
             </li>
             <li>
               <Link to="/" target="_blank">
