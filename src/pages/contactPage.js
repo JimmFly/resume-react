@@ -23,7 +23,9 @@ const ContactPage = () => {
               <label for="need">需求：</label>
               <textarea name="need" id="need" rows="10"></textarea>
             </div>
-            <button type="submit">提交</button>
+            <button type="submit" tr>
+              提交
+            </button>
           </form>
         </section>
         <hr />

@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import background from "../static/icon/orangeBackground.svg";
 
 const NavComponent = () => {
+  const { pathname } = useLocation();
   return (
     <>
       <img className="back" src={background} alt="" />
@@ -10,15 +11,25 @@ const NavComponent = () => {
         <nav>
           <ul>
             <li>
-              <Link className="active" to="/">
+              <Link className={pathname === "/" ? "active" : null} to="/">
                 首页
               </Link>
             </li>
             <li>
-              <Link to="/resume">我的履历</Link>
+              <Link
+                className={pathname === "/resume" ? "active" : null}
+                to="/resume"
+              >
+                我的履历
+              </Link>
             </li>
             <li>
-              <Link to="/contact">联系方式</Link>
+              <Link
+                className={pathname === "/contact" ? "active" : null}
+                to="/contact"
+              >
+                联系方式
+              </Link>
             </li>
             <li>
               <Link to="/" target="_blank">
