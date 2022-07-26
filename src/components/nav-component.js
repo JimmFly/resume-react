@@ -10,12 +10,12 @@ const NavComponent = () => {
         <nav>
           <ul>
             <li>
-              <Link className="active" to="#">
+              <Link className="active" to="/">
                 首页
               </Link>
             </li>
             <li>
-              <Link to="/">我的履历</Link>
+              <Link to="/resume">我的履历</Link>
             </li>
             <li>
               <Link to="/">联系方式</Link>

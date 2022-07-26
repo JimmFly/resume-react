@@ -1,9 +1,10 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import HomeComponent from "./components/home-component";
+import HomeComponent from "./pages/homepage";
 import NavComponent from "./components/nav-component";
 import FooterComponent from "./components/footer-component";
 import Animation from "./components/homeAnimation";
+import ResumePage from "./pages/resumePage";
 import "./styles/style.css";
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavComponent />
       <Routes>
         <Route path="/" element={<HomeComponent />} />
+        <Route path="/resume" element={<ResumePage />} />
       </Routes>
       <FooterComponent />
     </div>

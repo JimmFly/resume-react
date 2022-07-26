@@ -4,7 +4,7 @@ import myPicture from "../static/img/picture.jpg";
 const HomeComponent = () => {
   return (
     <div>
-      <main>
+      <main className="homepage">
         <section className="left">
           <h1>
             你好，我是
@@ -23,7 +23,7 @@ const HomeComponent = () => {
             <img src={myPicture} alt="" />
           </div>
           <div className="box">
-            <div className="box1">网页前端开发者 HTML5+CSS3</div>
+            <div className="box1">网页前端开发者 HTML5+CSS3+REACT</div>
             <div className="box2"></div>
           </div>
         </section>

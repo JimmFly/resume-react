@@ -257,54 +257,6 @@ main section.right div.box div.box2 {
   z-index: 0;
 }
 
-main section.table {
-  -webkit-box-flex: 3;
-      -ms-flex: 3 1 500px;
-          flex: 3 1 500px;
-  padding: 1rem;
-}
-
-main section.table table {
-  border-collapse: collapse;
-}
-
-main section.table table tr {
-  border-top: 2px solid grey;
-  border-bottom: 2px solid grey;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-main section.table table tr td {
-  padding: 1rem;
-}
-
-main section.table table tr:hover {
-  background-color: #fccdb1;
-}
-
-main section.pic {
-  position: relative;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 600px;
-          flex: 1 1 600px;
-  margin: 1rem 2rem;
-}
-
-main section.pic img {
-  width: 25vw;
-}
-
-main section.pic div.box3 {
-  background-color: orange;
-  width: 25vw;
-  height: 68vh;
-  position: absolute;
-  z-index: -1;
-  top: 3vw;
-  left: 3vw;
-}
-
 main section.form {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 600px;
@@ -384,6 +336,10 @@ main section.content h2 {
   padding: 1rem;
 }
 
+main.homepage {
+  height: 70vh;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -392,6 +348,67 @@ footer {
 
 footer a {
   padding: 2rem;
+}
+
+main.resumePage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.table {
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 500px;
+          flex: 3 1 500px;
+  padding: 1rem;
+}
+
+section.table table {
+  border-collapse: collapse;
+}
+
+section.table table tr {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+section.table table tr td {
+  padding: 1rem;
+}
+
+section.table table tr td img {
+  padding: 1rem;
+}
+
+section.table table tr:hover {
+  background-color: #fccdb1;
+}
+
+section.pic {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 600px;
+          flex: 1 1 600px;
+  margin: 1rem 2rem;
+}
+
+section.pic img {
+  width: 25vw;
+}
+
+section.pic div.box3 {
+  background-color: orange;
+  width: 25vw;
+  height: 68vh;
+  position: absolute;
+  z-index: -1;
+  top: 3vw;
+  left: 3vw;
 }
 
 @media screen and (max-width: 1100px) {
@@ -471,9 +488,5 @@ footer a {
     width: 20vw;
     height: 20vw;
   }
-}
-
-footer a img {
-  color: #0b9890;
 }
 /*# sourceMappingURL=style.css.map */
