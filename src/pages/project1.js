@@ -14,7 +14,7 @@ const Project1 = () => {
           后端源码 https://github.com/JimmFly/resume-server
         </Link>
         <p>
-          这个练习项目使用node跟express搭建简单的后端.使用react脚手架搭建的前端项目，react-router配置路由，使用axios发送注册、登录等请求到后端服务器，通过调用后端api获取用户信息和课程列表。结合后端api与react-router做了简单的鉴权，动态显示nav。动态显示用户信息以及名下的课程。
+          这个练习项目使用node跟express搭建简单的后端.使用react脚手架+bootstrap搭建的前端项目，react-router配置路由，使用axios发送注册、登录等请求到后端服务器，通过调用后端api获取用户信息和课程列表。结合后端api与react-router做了简单的鉴权，动态显示nav。动态显示用户信息以及名下的课程。
         </p>
         <h2>中台项目</h2>
         <Link to="https://gitee.com/flyggyes/react-pc">
