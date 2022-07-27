@@ -32,12 +32,18 @@ const NavComponent = () => {
               </Link>
             </li>
             <li>
-              <Link to="/" target="_blank">
+              <Link
+                className={pathname === "/project1" ? "active" : null}
+                to="/project1"
+              >
                 前后端分离项目
               </Link>
             </li>
             <li>
-              <Link to="/" target="_blank">
+              <Link
+                className={pathname === "/project2" ? "active" : null}
+                to="/project2"
+              >
                 react hooks等练手项目
               </Link>
             </li>

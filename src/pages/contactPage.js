@@ -9,23 +9,26 @@ const ContactPage = () => {
           <form>
             <div>
               <label for="name">姓名：</label>
-              <input type="text" name="name" />
+              <input type="text" name="name" value="仅供测试" />
             </div>
             <div>
               <label for="email">邮箱：</label>
-              <input type="email" name="email" />
+              <input type="email" name="email" value="仅供测试" />
             </div>
             <div>
               <label for="phone">电话：</label>
-              <input type="text" name="phone" />
+              <input type="text" name="phone" value="仅供测试" />
             </div>
             <div>
               <label for="need">需求：</label>
-              <textarea name="need" id="need" rows="10"></textarea>
+              <textarea
+                name="need"
+                id="need"
+                rows="10"
+                value="仅供测试"
+              ></textarea>
             </div>
-            <button type="submit" tr>
-              提交
-            </button>
+            <button>提交</button>
           </form>
         </section>
         <hr />
