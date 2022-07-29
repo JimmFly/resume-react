@@ -10,6 +10,7 @@ const Project1 = () => {
           target="_blank"
           href="https://github.com/JimmFly/project"
           rel="noopener noreferrer"
+          style={{ color: "black" }}
         >
           前端源码 https://github.com/JimmFly/project
         </a>
@@ -17,6 +18,7 @@ const Project1 = () => {
           target="_blank"
           href="https://github.com/JimmFly/resume-server"
           rel="noopener noreferrer"
+          style={{ color: "black" }}
         >
           后端源码 https://github.com/JimmFly/resume-server
         </a>
@@ -28,6 +30,7 @@ const Project1 = () => {
           target="_blank"
           href="https://gitee.com/flyggyes/react-pc"
           rel="noopener noreferrer"
+          style={{ color: "black" }}
         >
           前端源码 https://gitee.com/flyggyes/react-pc
         </a>

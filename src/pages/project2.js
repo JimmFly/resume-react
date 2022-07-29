@@ -10,6 +10,7 @@ const Project2 = () => {
         <a
           target="_blank"
           href="https://github.com/JimmFly/water"
+          style={{ color: "black" }}
           rel="noopener noreferrer"
         >
           项目源码 https://github.com/JimmFly/water
