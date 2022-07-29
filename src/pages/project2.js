@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Project2 = () => {
   return (
@@ -8,9 +7,13 @@ const Project2 = () => {
         <h1>项目介绍</h1>
         <br />
         <h2>练手项目</h2>
-        <Link to="https://github.com/JimmFly/water">
+        <a
+          target="_blank"
+          href="https://github.com/JimmFly/water"
+          rel="noopener noreferrer"
+        >
           项目源码 https://github.com/JimmFly/water
-        </Link>
+        </a>
         <p>这个练习项目里面包含了多个练手小页面</p>
         <ul>
           <li>八杯水项目：使用redux管理的一个提醒喝水小工具</li>

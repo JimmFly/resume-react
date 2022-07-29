@@ -17,7 +17,14 @@ const HomeComponent = () => {
           <p>
             我在2022年之前，完全没有写过程式的经验，在一家事业单位做柜员，经历了一些事情之后决定跳出舒适圈，辞职学习前端。在此之后，每天都沉浸在敲代码的快乐中。学习前端的感觉很棒，做出来的东西可以很直观的看到效果，知识也在不断更新，经常能够从学到新东西并成功使用中获得强烈的成就感。
           </p>
-          <p>本简历的源码 https://github.com/JimmFly/resume-react</p>
+          <a
+            target="_blank"
+            href="https://github.com/JimmFly/resume-react"
+            rel="noopener noreferrer"
+            style={{ color: "black" }}
+          >
+            本简历的源码 https://github.com/JimmFly/resume-react
+          </a>
         </section>
         <section className="right">
           <div className="myPic">
